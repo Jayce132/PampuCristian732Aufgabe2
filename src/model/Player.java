@@ -6,7 +6,7 @@ public class Player {
     private int id;
     private String name;
     private String position;
-    private int value;
+    private double value;
 
     public Player(String name, String position, int value) {
         this.id = idCounter++;
@@ -47,7 +47,7 @@ public class Player {
         this.position = position;
     }
 
-    public int getValue() {
+    public double getValue() {
         return value;
     }
 
